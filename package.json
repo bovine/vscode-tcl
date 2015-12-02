@@ -14,6 +14,10 @@
 	"categories": [
 		"Languages"
 	],
+	"galleryBanner": {
+		"color": "#9AB3CF",
+		"theme": "light"
+	},
 	"contributes": {
 		"languages": [
 			{
