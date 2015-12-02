@@ -1,0 +1,39 @@
+{
+	"name": "tcl",
+	"displayName": "TCL",
+	"description": "TCL Language Support",
+	"version": "0.0.1",
+	"publisher": "rashwell",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rashwell/tcl.git"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "tcl",
+				"aliases": [
+					"Tcl",
+					"tcl"
+				],
+				"extensions": [
+					".tcl"
+				],
+				"configuration": "./tcl.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "tcl",
+				"scopeName": "source.tcl",
+				"path": "./syntaxes/tcl.tmLanguage"
+			}
+		]
+	}
+}
